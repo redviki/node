@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/html/node.git/
+    destination: /var/html/proj/
 hooks:
   ApplicationStart:
     - location: start_server
