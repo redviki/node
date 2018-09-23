@@ -4,6 +4,7 @@ files:
   - source: /
     destination: /var/html/node.git/
 hooks:
-  BeforeInstall:
-  AfterInstall:
   ApplicationStart:
+    - location: start_server
+      timeout: 100
+      runas: root
